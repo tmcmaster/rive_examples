@@ -1,6 +1,6 @@
 import 'package:faker/faker.dart';
-import 'package:flutter_package_template/flutter_package_template.dart';
 import 'package:flutter_workbench/flutter_workbench.dart';
+import 'package:rive_examples/rive_examples.dart';
 
 import 'shared_style.dart';
 
@@ -8,7 +8,7 @@ void main() => FlutterWorkbench.runAppWidgetTester(
       title: 'Responsive Card',
       styles: SharedStyle.themes,
       options: WidgetTesterOptions(
-        aspectRatio: 5 / 3,
+        aspectRatio: 1,
         columns: 2,
       ),
       children: Iterable.generate(5)

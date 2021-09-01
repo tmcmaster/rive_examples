@@ -6,7 +6,7 @@ then
   exit 1;
 fi
 
-TEMPLATE_NAME="flutter_package_template";
+TEMPLATE_NAME="rive_examples";
 PACKAGE_NAME=$(basename $(pwd));
 
 if [ -x "${PACKAGE_NAME}" ];

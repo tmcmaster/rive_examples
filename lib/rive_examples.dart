@@ -1,4 +1,4 @@
-library flutter_package_template;
+library rive_examples;
 
 import 'package:flutter/material.dart';
 

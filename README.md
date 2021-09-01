@@ -1,2 +1,2 @@
-# flutter_package_template
+# rive_examples
 This is a template for building new widgets
