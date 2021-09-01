@@ -1,3 +1,3 @@
 #!/bin/bash
 
-flutter run -t site/main.dart -d chrome
+flutter run -t lin/main.dart -d chrome
