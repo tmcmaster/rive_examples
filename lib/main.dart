@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_workbench/flutter_workbench.dart';
 import 'package:rive_examples/favorite_icon/buttons_row.dart';
+import 'package:rive_examples/flutter_guy/main.dart';
 import 'package:rive_examples/guss/main.dart';
 import 'package:rive_examples/penguiln_dance/main.dart';
 import 'package:rive_examples/resizing_house/page.dart';
@@ -20,6 +21,7 @@ void main() {
           PenguinDanceDemoExamplesBuilder(),
           FavouriteIconDemoExamplesBuilder(),
           ResizingHouseDemoExamplesBuilder(),
+          FlutterGuyDemoExamplesBuilder(),
         ]),
       ],
       child: WidgetExamplesTester(),
@@ -49,4 +51,8 @@ class FavouriteIconDemoExamplesBuilder extends ExamplesBuilder {
 
 class ResizingHouseDemoExamplesBuilder extends ExamplesBuilder {
   ResizingHouseDemoExamplesBuilder() : super(name: 'Resizing House', build: () => [ResizingHouseDemo()]);
+}
+
+class FlutterGuyDemoExamplesBuilder extends ExamplesBuilder {
+  FlutterGuyDemoExamplesBuilder() : super(name: 'Flutter Guy', build: () => [FlutterGuyDemo()]);
 }
