@@ -19,6 +19,9 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_workbench:
+    git:
+      url: https://github.com/tmcmaster/flutter_workbench.git
 
 dev_dependencies:
   flutter_test:
@@ -28,6 +31,3 @@ dev_dependencies:
   test:
   faker:
   flare_flutter:
-  flutter_workbench:
-    git:
-      url: https://github.com/tmcmaster/flutter_workbench.git

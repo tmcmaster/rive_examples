@@ -14,15 +14,17 @@ void main() {
     StyledRiverpodApp(
       themes: SharedStyle.themes,
       overrides: [
-        WidgetExamplesTesterProviders.exampleBuildersList.overrideWithValue([
-          TeddyDemoExamplesBuilder(),
-          GussDemoExamplesBuilder(),
-          SmileySwitchDemoExamplesBuilder(),
-          PenguinDanceDemoExamplesBuilder(),
-          FavouriteIconDemoExamplesBuilder(),
-          ResizingHouseDemoExamplesBuilder(),
-          FlutterGuyDemoExamplesBuilder(),
-        ]),
+        WidgetExamplesTesterProviders.exampleBuildersList.overrideWithValue(
+          [
+            TeddyDemoExamplesBuilder(),
+            //GussDemoExamplesBuilder(),
+            SmileySwitchDemoExamplesBuilder(),
+            PenguinDanceDemoExamplesBuilder(),
+            FavouriteIconDemoExamplesBuilder(),
+            ResizingHouseDemoExamplesBuilder(),
+            FlutterGuyDemoExamplesBuilder(),
+          ],
+        ),
       ],
       child: WidgetExamplesTester(),
     ),
